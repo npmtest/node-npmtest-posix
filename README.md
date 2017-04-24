@@ -1,6 +1,6 @@
 # npmtest-posix
 
-#### test coverage for  [posix (v4.1.1)](http://github.com/ohmu/node-posix)  [![npm package](https://img.shields.io/npm/v/npmtest-posix.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-posix) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-posix.svg)](https://travis-ci.org/npmtest/node-npmtest-posix)
+#### basic test coverage for  [posix (v4.1.1)](http://github.com/ohmu/node-posix)  [![npm package](https://img.shields.io/npm/v/npmtest-posix.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-posix) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-posix.svg)](https://travis-ci.org/npmtest/node-npmtest-posix)
 
 #### The missing POSIX system calls
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-posix/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-posix/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-posix/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-posix/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-posix/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-posix/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-posix/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-posix/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-posix/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-posix/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-posix/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-posix/build/coverage.html/index.html)
 
@@ -102,7 +102,8 @@
         "install": "node-gyp rebuild",
         "test": "make test"
     },
-    "version": "4.1.1"
+    "version": "4.1.1",
+    "bin": {}
 }
 ```
 
